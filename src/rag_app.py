@@ -29,7 +29,6 @@ retriever = vector_store.as_retriever(
     search_kwargs={"k": 3},
 )
 
-# Create a ChatOpenAI model
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.0-flash",
     temperature=0,
